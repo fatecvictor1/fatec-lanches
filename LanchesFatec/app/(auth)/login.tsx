@@ -5,6 +5,7 @@ import Input from '../components/Input';
 import BlueBtn from '../components/BlueBtn';
 import styles from '../styles/authStyle';
 
+
 export default function LoginRoute() {
   const router = useRouter();
 
@@ -14,6 +15,8 @@ export default function LoginRoute() {
         <Text style={styles.headerTitle}>Fatec</Text>
         <Text style={styles.headerSubtitle}>Faculdade de Tecnologia</Text>
       </View>
+
+     
 
       <View style={styles.content}>
         <Text style={styles.title}>Lanches Fatec</Text>
